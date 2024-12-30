@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+  background-color: #A1F1B7; /* 基调背景颜色 */
+  font-family: Arial, sans-serif;
+  color: #2F4F4F; /* 深绿色字体，方便对比 */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2E8B57; /* 深绿色 */
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #2E8B57; /* 深绿色按钮 */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3CB371; /* 浅绿色 hover 效果 */
+}
+
+input {
+  border: 2px solid #2E8B57;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  width: 80%;
+}
+
+div {
+  margin: 20px auto;
+  width: 80%;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 10px 0;
+}
